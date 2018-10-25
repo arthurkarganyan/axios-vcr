@@ -1,0 +1,95 @@
+{
+  "_args": [
+    [
+      "axios-vcr@^1.0.1",
+      "/home/marola/web/lowcost.ninja"
+    ]
+  ],
+  "_from": "axios-vcr@>=1.0.1 <2.0.0",
+  "_id": "axios-vcr@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/axios-vcr",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/axios-vcr-1.0.1.tgz_1486771292792_0.025077073369175196"
+  },
+  "_npmUser": {
+    "email": "nettofarah@gmail.com",
+    "name": "nettofarah"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "axios-vcr",
+    "raw": "axios-vcr@^1.0.1",
+    "rawSpec": "^1.0.1",
+    "scope": null,
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/axios-vcr/-/axios-vcr-1.0.1.tgz",
+  "_shasum": "7dc81287228fb1e1dcfb57613a2b9f65aa220e7e",
+  "_shrinkwrap": null,
+  "_spec": "axios-vcr@^1.0.1",
+  "_where": "/home/marola/web/lowcost.ninja",
+  "author": {
+    "name": "Netto Farah"
+  },
+  "bugs": {
+    "url": "https://github.com/nettofarah/axios-vcr/issues"
+  },
+  "dependencies": {
+    "fs-promise": "^0.5.0",
+    "lodash": "^4.13.1",
+    "md5": "^2.1.0",
+    "mkdirp": "^0.5.1"
+  },
+  "description": "axios-vcr is a set of middlewares for axios that allow you to record and replay requests.",
+  "devDependencies": {
+    "axios": "^0.11.1",
+    "mocha": "^2.5.3",
+    "rimraf": "^2.5.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "7dc81287228fb1e1dcfb57613a2b9f65aa220e7e",
+    "tarball": "https://registry.npmjs.org/axios-vcr/-/axios-vcr-1.0.1.tgz"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "gitHead": "406e9d0be8cadd7b288c7778370474d2bf43a900",
+  "homepage": "http://github.com/nettofarah/axios-vcr",
+  "keywords": [
+    "axios",
+    "http",
+    "mock",
+    "test",
+    "vcr"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "nettofarah",
+      "email": "nettofarah@gmail.com"
+    }
+  ],
+  "name": "axios-vcr",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nettofarah/axios-vcr.git"
+  },
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "version": "1.0.1"
+}
